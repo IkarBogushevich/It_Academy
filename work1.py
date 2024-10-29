@@ -12,3 +12,9 @@ print ('Hello world') #проба пера
 #text = input('Enter the text: ')#прошу текст
 #print(text.title())#превращаю текст в нужный
 
+
+amount = float(input("Enter the number: "))
+if (amount>0):
+    formatted_amount = f"{amount:,.2f}" 
+    print(formatted_amount)
+else: print("Hui te")
