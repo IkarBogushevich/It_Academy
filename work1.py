@@ -17,4 +17,4 @@ amount = float(input("Enter the number: "))
 if (amount>0):
     formatted_amount = f"{amount:,.2f}" 
     print(formatted_amount)
-else: print("Hui te")
+else: print("Nelzya")
