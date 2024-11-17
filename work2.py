@@ -32,3 +32,8 @@ print(" ")
 
 print("Task 3")
 
+number = float(input())
+
+print(f"({number:.2f}")
+print(round(number))
+print(f"{number:011.2f}")
