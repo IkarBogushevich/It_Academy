@@ -1,16 +1,16 @@
-print ('Hello world') #проба пера
+print ('Hello world')
 
-print("Pls, write your name") # просьба ввода имени
-name = input() # ввод имени
-print ("And u surname")# просьба ввода фамилии
-surname = input(ввод фамилии
-print('Hello ', name, surname, "! You just delved into Python! Great start!") #разные выводы
-print(f'Hello {name}, {surname}, ! You just delved into Python! Great start!') #разные выводы
+print("Pls, write your name")
+name = input()
+print ("And u surname")
+surname = input("ввод фамилии: ")
+print('Hello ', name, surname, "! You just delved into Python! Great start!") 
+print(f'Hello {name}, {surname}, ! You just delved into Python! Great start!') 
 
 
 
-text = input('Enter the text: ')#прошу текст
-print(text.title())#превращаю текст в нужный
+text = input('Enter the text: ')
+print(text.title())
 
 
 amount = float(input("Enter the number: "))
