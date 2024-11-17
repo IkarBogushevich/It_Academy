@@ -5,7 +5,7 @@ name = input()
 print ("And u surname")
 surname = input("ввод фамилии: ")
 print('Hello ', name, surname, "! You just delved into Python! Great start!") 
-print(f'Hello {name}, {surname}, ! You just delved into Python! Great start!') 
+print(f'Hello {name} {surname}, ! You just delved into Python! Great start!') 
 
 
 
