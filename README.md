@@ -21,3 +21,5 @@
 
 1. [Первое](https://github.com/IkarBogushevich/It_Academy/blob/main/work1.py)
 2. [Второе](https://github.com/IkarBogushevich/It_Academy/blob/main/work2.py)
+3. [Третье]()
+4. [Четвертое]()
