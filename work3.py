@@ -62,12 +62,8 @@ print(" ")
 
 print("Task 4")
 
-text=str(input())
+text = input("Введите текст: ")
 
-secret_message = ""
-
-for char in text:
-    if char.isupper():  
-        secret_message += char  
+secret_message = ''.join([char for char in text if char.isupper()])
 
 print("Секретное сообщение:", secret_message)
