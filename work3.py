@@ -6,11 +6,11 @@ print("Task 1")
 
 num1=int(input("Enter the number: "))
 
-if ((num1 % 5)==0 ) and ((num1 % 3)==0):
+if ((num1 % 5)==0 ) and ((num1 % 3)==0) and (num1>0):
     print("Fizz Buzz")
-elif ((num1 % 3)==0):
+elif ((num1 % 3)==0) and (num1>0):
     print("Fizz")
-elif ((num1 % 5)==0):
+elif ((num1 % 5)==0) and (num1>0):
     print("Buzz")
 else:
     print(num1)
@@ -43,3 +43,31 @@ match num2:
 print(" ")
 print("================================================================================")
 print(" ")
+
+print("Task 3")
+
+
+N = int(input("Введите число N (от 1 до 9): "))
+
+
+if 1 <= N <= 9:
+    result = ''.join(str(i) for i in range(1, N + 1))
+    print("Результат:", result)
+else:
+    print("Ошибка: введите число от 1 до 9.")
+
+print(" ")
+print("================================================================================")
+print(" ")
+
+print("Task 4")
+
+text=str(input())
+
+secret_message = ""
+
+for char in text:
+    if char.isupper():  
+        secret_message += char  
+
+print("Секретное сообщение:", secret_message)
